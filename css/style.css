@@ -1,0 +1,104 @@
+.body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+#background {
+/* background: repeating-linear-gradient(rgb(68, 64, 64), rgb(50, 194, 50)); */
+    background-color: rgb(98, 104, 107);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.title-section {
+  position: relative;
+  height: 60vh;
+}
+
+.title-text {
+  margin: 0px;
+  padding: auto;
+  font-size: 40px;
+  color: rgb(186, 254, 51);
+}
+
+.header-image {
+  height: 380px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello-section {
+  margin: 20px;
+}
+
+.container {
+  padding: 10px;
+  margin: 60px;
+  padding: 0;
+}
+
+.skills-section {
+  height: 150px;
+}
+
+.container-text {
+  margin: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-section {
+  height: 100px;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.col {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.profile-container {
+  width: 100%;
+  max-width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  display: inline;
+  align-self: start;
+  justify-content: space-evenly;
+}
